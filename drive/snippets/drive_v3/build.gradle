@@ -1,8 +1,7 @@
 apply plugin: 'java'
 repositories {
     // Use 'jcenter' for resolving your dependencies.
-    mavenLocal()
-    jcenter()
+    mavenCentral()
 }
 dependencies {
     implementation 'com.google.apis:google-api-services-drive:v3-rev20211107-1.32.1'
